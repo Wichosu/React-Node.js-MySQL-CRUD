@@ -1,0 +1,6 @@
+(define (suma a b) (+ a b))
+(display "Inserta el valor a\n")
+(define a (read))
+(display "Inserta el valor b\n")
+(define b (read))
+(display (suma a b))
