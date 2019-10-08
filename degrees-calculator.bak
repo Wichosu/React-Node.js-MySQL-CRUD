@@ -1,4 +1,4 @@
-(display "Calculadora de conversiones. Por favor ingresa la cantidad a convertir \n") ;Luis 
+(display "Calculadora de conversiones. Por favor ingresa la cantidad a convertir \n")
 (define degrees (read))
 (display "Por favor selecciona la opcion que desees \n")
 (display " 1.Celcius a Farenheit \n 2.Farenheit a Celcius \n 3.Celcius a Kelvin \n 4.Kelvin a Celcius \n 5.Kelvin a Farenheit \n 6.Farenheit a Kelvin \n")
@@ -36,7 +36,7 @@
      (display "Has seleccionado la opcion Farenheit a Kelvin \n Tus grados Kelvin son ")
      (ftk degrees)))
   (else 
-   (display "Seleccionaste una opcion no valida intenta de nuevo,tus opciones son del 1 al 6 \n")))
+   (display "Seleccionaste una opcion no valida intenta de nuevo \n")))
    
 
 
