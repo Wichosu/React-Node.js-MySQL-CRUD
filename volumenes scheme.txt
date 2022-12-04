@@ -1,4 +1,0 @@
-(define (cuadrado n) (* n n))
-(define (areac m) (* (cuadrado m) pi))
-(define (vcilindro radio h) (* (areac radio) h))
-(define (vcono radio altura) (/ (* (areac radio) altura) 3))

@@ -1,4 +1,0 @@
-(define r 6)
-(define cuadrado ( * r r))
-(define area (* pi cuadrado))
-area
